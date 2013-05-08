@@ -1,0 +1,43 @@
+.navigate {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navigate>li {
+    position: relative;
+    float: left;
+    width: 90px;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 1px;
+    background: url('navigate.png') no-repeat 0px -60px;
+}
+.navigate>li:first-child {
+    background-position: 0px 0px;
+}
+.navigate>li:last-child {
+    background-position: 0px -120px;
+}
+.navigate>li.active {
+    background-position: 0px -90px;
+}
+.navigate>li.active:first-child {
+    background-position: 0px -30px;
+}
+.navigate>li.active:last-child {
+    background-position: 0px -150px;
+}
+.navigate .children {
+    display: none;
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navigate .children>li {
+    width: 90px;
+    line-height: 25px;
+    background-color: lightblue;
+    margin: 1px 0;
+}
