@@ -33,4 +33,5 @@ jQuery 导航插件
 ### 作者
 
 blog: [wenzhixin.net.cn](http://wenzhixin.net.cn)
+
 email: wenzhixin2010@gmail.com
